@@ -1,8 +1,4 @@
-# Data_pipeline
-Data Pipeline for ETL Processing
+#Datapipeline in GCP
 
-This is a project to analyze Data using ETL Pipeline.
+This project is a datapipeline using google cloud platform. A python function generates daily sales data in csv format and uploads it to GCS. A cloud fucntion is deployed to detect any new csv file and append the contents to a Bigquery table. 
 
-ETL - Extract -> Transform -> Load 
-
-I have used World Bank Database from Kaggle. So the outline is I'm going to use various data sources in various formats. Clean and transform the data if required. And arrive at useful ingsight.
